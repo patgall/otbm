@@ -1,6 +1,6 @@
 # Online Test Bench Mark
 
-A web application for distribute tests to students
+A web application to distribute tests to students
 
 ## Prerequisites
 
