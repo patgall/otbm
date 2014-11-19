@@ -19,27 +19,17 @@ Comments
 
 Code formating
 --------------
-* K&R brace style
-    int main(int argc, char *argv[])
-    {
-        ...
-        while (x == y) {
-            something();
-            somethingelse();
-     
-            if (some_error) {
-                do_correct();
-            } else {
-                continue_as_usual();
-            }
+* java brace style
+
+    methode{
+        function{
         }
-     
-        finalthing();
-        ...
     }
+
 * <?php ?>
 * xhtml (lower cased balises)
 * css
+
     div#example_01 {
         padding: 3px;
         margin: 33px;
