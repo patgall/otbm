@@ -30,19 +30,13 @@ class Controller_Index extends Controller_Template
 	 */
 	public function action_index()
 	{
-		return Response::forge(View::forge('welcome/index'));
-	}
-
-	/**
-	 * A typical "Hello, Bob!" type example.  This uses a Presenter to
-	 * show how to use them.
-	 *
-	 * @access  public
-	 * @return  Response
-	 */
-	public function action_hello()
-	{
-		return Response::forge(Presenter::forge('welcome/hello'));
+		$data["subnav"] = array('index'=> 'active' );
+		$this->template->link_header = '/';
+		$this->template->title = 'Accueil';
+		$this->template->main_title = 'OTBM';
+		$this->template->sub_title = 'Accueil';
+		$this->template->index = 'index';
+		$this->template->content = View::forge('index', $data);
 	}
 
 	/**
