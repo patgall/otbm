@@ -17,6 +17,23 @@
     <node id="n0">
       <data key="d5"/>
       <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="537.3737701302847" width="203.0" x="28.138780852121215" y="79.2594096435397"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="56.283203125" x="73.3583984375" y="23.4141603012894">Branches<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="-0.45642853893740903" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
         <y:SVGNode>
           <y:Geometry height="45.56999588012695" width="67.49800109863281" x="295.21281486293674" y="406.39980438882185"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
@@ -35,8 +52,7 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n1">
-      <data key="d5"/>
+    <node id="n2">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="45.56999588012695" width="67.49800109863281" x="677.3989630592066" y="406.39980438882185"/>
@@ -56,8 +72,7 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n2">
-      <data key="d5"/>
+    <node id="n3">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="46.887996673583984" width="39.527000427246094" x="421.6" y="133.46080399209347"/>
@@ -77,8 +92,7 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n3">
-      <data key="d5"/>
+    <node id="n4">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="56.231998443603516" width="35.095298767089844" x="562.5047012329101" y="133.46080399209347"/>
@@ -98,8 +112,7 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n4">
-      <data key="d5"/>
+    <node id="n5">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="121.7490005493164" x="268.08731513759494" y="490.9999999999999"/>
@@ -116,8 +129,7 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n5">
-      <data key="d5"/>
+    <node id="n6">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="121.7490005493164" x="650.2734633338648" y="490.9999999999999"/>
@@ -134,8 +146,7 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n6">
-      <data key="d5"/>
+    <node id="n7">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="176.0" x="421.6" y="249.99999999999994"/>
@@ -152,8 +163,7 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n7">
-      <data key="d5"/>
+    <node id="n8">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="108.08000000000004" x="274.9218154122531" y="550.9999999999999"/>
@@ -170,14 +180,13 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n8">
-      <data key="d5"/>
+    <node id="n9">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="108.08000000000004" x="663.9424638831811" y="550.9999999999999"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="53.998046875" x="27.04097656250002" y="5.93359375">commits<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="53.998046875" x="27.040976562499964" y="5.93359375">commits<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -188,8 +197,7 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n9">
-      <data key="d5"/>
+    <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="67.26635954764905" width="149.44444444444446" x="54.91655862989899" y="133.46080399209347"/>
@@ -205,8 +213,7 @@
         </y:GenericNode>
       </data>
     </node>
-    <node id="n10">
-      <data key="d5"/>
+    <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="67.26635954764905" width="149.44444444444446" x="54.916558629899015" y="212.73364045235093"/>
@@ -222,8 +229,7 @@
         </y:GenericNode>
       </data>
     </node>
-    <node id="n11">
-      <data key="d5"/>
+    <node id="n12">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
           <y:Geometry height="67.26635954764905" width="149.44444444444446" x="54.916558629899015" y="532.3668202261754"/>
@@ -239,8 +245,7 @@
         </y:GenericNode>
       </data>
     </node>
-    <edge id="e0" source="n6" target="n0">
-      <data key="d9"/>
+    <edge id="e0" source="n7" target="n1">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -260,8 +265,7 @@
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e1" source="n6" target="n1">
-      <data key="d9"/>
+    <edge id="e1" source="n7" target="n2">
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -281,8 +285,7 @@
         </y:ArcEdge>
       </data>
     </edge>
-    <edge id="e2" source="n7" target="n6">
-      <data key="d9"/>
+    <edge id="e2" source="n8" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -302,8 +305,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n8" target="n6">
-      <data key="d9"/>
+    <edge id="e3" source="n9" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
