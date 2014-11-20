@@ -28,13 +28,16 @@
 	<body>
 		<div class="container">
 			<div class="jumbotron">
-				<h1 style="margin-top: -20px;">
-				<?php echo Html::anchor($link_header, $main_title, array('style' => 'text-decoration: none;color:black;'));?>
-				</h1>
-				<p><?php echo $sub_title; ?></p>
 				<div class="row">
-					<div class="col-md-4">.col-md-4</div>
-					<div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+					<div class="col-md-4">
+						<h1 style="margin-top: -20px;">
+						<?php echo Html::anchor($link_header, $main_title, array('style' => 'text-decoration: none;color:black;'));?>
+						</h1>				
+						<p><?php echo $sub_title; ?></p>
+					</div>
+					<div class="col-md-4 col-md-offset-4">
+						<?php echo Html::anchor('/', 'Connexion', array('class' => 'btn btn-warning', 'style' => 'float: right;')); ?>
+					</div>
 				</div>
 			</div>
 			<?php if (Session::get_flash('success')): ?>
