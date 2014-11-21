@@ -36,7 +36,11 @@
 						<p><?php echo $sub_title; ?></p>
 					</div>
 					<div class="col-md-4 col-md-offset-4">
-						<?php echo Html::anchor('/', 'Connexion', array('class' => 'btn btn-warning', 'style' => 'float: right;')); ?>
+						<div class="btn-group btn-group-xs" style="float: right;">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#modalConnexion">
+								Connexion
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -105,6 +109,24 @@
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h4 class="modal-title" id="myModalLabel">Crédits</h4>
+					</div>
+					<div class="modal-body">
+						Réalisation :<br />
+						Nicolas Le Gall - Baptiste Lenouvel - Loick Pelet - Patrice Gall
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalConnexion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Connexion</h4>
 					</div>
 					<div class="modal-body">
 						Réalisation :<br />
