@@ -36,6 +36,6 @@ class Controller_Admin extends Controller_Template
 		$this->template->main_title = 'OTBM';
 		$this->template->sub_title = 'Accueil';
 		$this->template->index = 'index';
-		$this->template->content = View::forge('admin', $data);
+		$this->template->content = View::forge('admin_eleve', $data);
 	}
 }
